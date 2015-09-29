@@ -1,5 +1,5 @@
 #Variables
-$SupportFilesPath = "\\13-L0001\c$\TEMP" 
+$SupportFilesPath = "C:\Location" 
 $DevFile = "$SupportFilesPath\developers.txt"
 $FTPDirectory = "C$\FTPRoot"
 #Backup Website
@@ -15,9 +15,9 @@ do{
 
 
 #Enter Source Location
-$Source = Read-Host "Enter the Source Server Name (ie. WEBAPP1VP): "
+$Source = Read-Host "Enter the Source Server Name (ie. WEBSERVER1): "
 #Enter Destination Location
-$Destination = Read-Host "Enter the Destination Server Name (ie. WEBAPP2VP): "
+$Destination = Read-Host "Enter the Destination Server Name (ie. WEBSERVER2): "
 
 
 #Do we want ALL sub folders and files?
